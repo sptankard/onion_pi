@@ -7,8 +7,8 @@ Onion Pi
 Make a Raspberry Pi into a Tor-tunneling middlebox! (Anonymizing
 backbox, proxy, what have you…)
 
-**WARNING!** This software setup will **NOT** make you anonymous. If
-you really need good, strong anonymity, go get
+:warning: **WARNING!** This software setup will **NOT** make you
+anonymous. If you really need good, strong anonymity, go get
 [TAILS](https://tails.boum.org/) or the
 [Tor Browser](https://www.torproject.org/) and use that instead (and
 make sure you get them from the right place, and read their
@@ -46,6 +46,7 @@ whole process as simple as:
 
 ```sh
 git clone https://github.com/sptankard/onion_pi.git
+# ls, cat, check it out before you run it…
 sudo onion_pi/setup.sh
 ```
 
