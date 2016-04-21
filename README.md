@@ -57,6 +57,10 @@ sudo onion_pi/setup.sh
 * Reimplement in ansible instead of bash
 * Ask Adafruit to sign their hostapd binary, and check it that way instead
 * Merge/expose the localnet hosts available on the parent LAN
+* Integrate hardening… [DebOps](https://github.com/debops/debops),
+  [Dev-Sec](https://github.com/dev-sec/ansible-os-hardening),
+  https://github.com/yauh/ansible-role-hardening,
+  https://github.com/elnappo/ansible-role-secure-openssh-server
 * ncurses wizard for selecting parameters:
     * Network interfaces (wlan0, eth0...)
     * SSID, password
@@ -67,3 +71,8 @@ sudo onion_pi/setup.sh
 * Programmatically handle WPASupplicant (de)activation
 * Use augtool more
 * Do all augtool operations at once, because augtool is slow to start up
+
+## Similar projects
+
+* https://github.com/grugq/PORTALofPi
+* https://github.com/grugq/portal
