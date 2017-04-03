@@ -15,3 +15,13 @@ how it goes! Goal is as much compatibility as possible.
 You can find firmware version using: `vcgencmd version`
 
 And wifi module with `lsusb`.
+
+
+# Alternate hostapd binary
+
+N.B. Older Raspbian versions such as `2016-03-18-raspbian-jessie-lite`
+required, for some wifi modules, replacing the default `hostapd`
+binary with a patched version (provided by Adafruit, compiled from
+Realtek sources). Newer Raspbian versions (such as 2017-03-02) work
+with the default, so this has been disabled in the script going
+forward.
