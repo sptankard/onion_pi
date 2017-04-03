@@ -192,7 +192,8 @@ Checking our model..."
     fi
 }
 
-check_wifi_module_and_maybe_replace_hostapd
+# Disabled, not needed with newer Raspbian versions (e.g. 2017-03-02)
+# check_wifi_module_and_maybe_replace_hostapd
 
 echo "Start the services now"
 service hostapd start
